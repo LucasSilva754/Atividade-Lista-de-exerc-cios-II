@@ -1,21 +1,22 @@
 Algoritmo "semnome"
-// Disciplina  :  [Linguagem e Lógica de Programação]
+// Disciplina  :  [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 20/04/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    numero, numeroPar, numeroImpar, quantidadePar, quantidadeImpar, contador:inteiro
    somaPar, soma: inteiro
    media, mediaPar:real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
   repita
   escreval ("digite um numero")
    leia (numero)
 
+      se numero>0 entao
       se (numero mod 2=0) entao
          numeroPar<-numero
          quantidadePar<-quantidadePar+1
@@ -23,7 +24,7 @@ Inicio
       senao
          numeroImpar<-numero
          quantidadeImpar<-quantidadeImpar+1
-
+         fimse
          soma<-soma+numero
          contador<-contador+1
          somaPar<-somaPar+numeroPar
